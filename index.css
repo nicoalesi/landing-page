@@ -83,3 +83,51 @@
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    gap: 30px;
+}
+
+.information-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-elements {
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    max-width: 875px;
+    gap: 30px;
+    margin-bottom: 4vw;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 160px;
+    gap: 6px;
+    text-align: center;
+}
+
+.element-figure {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.element-text {
+    color: #777777;
+    font-weight: 600;
+    font-size: 14px;
+}
