@@ -155,3 +155,47 @@
     font-size: 18px;
     margin-left: auto;
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+}
+
+.floater {
+    display: flex;
+    width: 80vw;
+    max-width: 1000px;
+    background-color: #3882F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.floater-main-text {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.floater-text {
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.floater-button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+}
