@@ -128,6 +128,30 @@
 
 .element-text {
     color: #777777;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+    padding-left: 23vw;
+    padding-right: 23vw;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 18px;
+    margin-left: auto;
 }
